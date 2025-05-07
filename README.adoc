@@ -5,7 +5,7 @@
 
 :BPS: <<BPS,Backup Power System>>
 :LMS: <<LMS,Library Management System>>
-:BAL3000: <<BAL3000, BAL 3000 Turbo Max Pro>>
+:mib: <<mib, Intelligent Housing>>
 
 == Teams
 
