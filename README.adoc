@@ -25,7 +25,7 @@
 
 | Maya Smaili, Noémie Tandol et Kévin Véronési
 | ??
-| https://github.com/FormalRequirements/re-2025-noemie-maya-kevin
+| https://github.com/FormalRequirements/re-2025-noemie-maya-kevin[GitHub]
 |===
 
 == Case studies
