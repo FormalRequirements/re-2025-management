@@ -15,20 +15,20 @@
 | Subject
 | Repo
 
-|Benji + Roro
+| Johan Senac et Amadou Diallo 
 | {BPS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952968[GitHub]
+| https://github.com/FormalRequirements/re-2025-johan-amadou[GitHub]
 
-|Chris
+| MURENGENZI Manzi et MUGISHA Igor 
 | {LMS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952959[GitHub]
+| https://github.com/FormalRequirements/re-2025-igor-et-godwin.git[GitHub]
 
 |===
 
 == Case studies
 
 [[BPS]]
-=== Backup Power System (?? groups)
+=== Backup Power System (1 groups)
 
 Initial description:
 
@@ -53,7 +53,7 @@ Pour cela, Thuy s'est penché sur le BPS, le système physique dont le DGLS est 
 
 
 [[LMS]]
-=== Library Management System (?? groups)
+=== Library Management System (1 group)
 
 Initial descriptions :
 
