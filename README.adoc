@@ -34,6 +34,10 @@
 |  AL MUGHRABI Khaled, CAMUS Jonathan et DEFFAUGT Valentin
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-khaled-jonathan-valentin[GitHub]
+
+| ??
+| {mib}
+| ??
 |===
 
 == Case studies
@@ -71,11 +75,10 @@ Initial descriptions :
 - https://github.com/ddd-by-examples/library?ref=hackernoon.com#domain-description 
 - https://www.naukri.com/code360/library/design-a-library-management-system-low-level-design 
 
-[[BAL3000]]
-=== BAL 3000 Turbo Max Pro
+[[mib]]
+=== Maison Intelligente
 
-.Theater performance ICE 2024
-image::bal3000.png[width=80%]
+Lien sur un descriptif de la MIB de Blagnac : chapitre  3 de https://jmbruel.github.io/sysmlpapyrusbook/PapyrusSysMLinAction.pdf[ce document].
 
 == Expected outcomes
 
