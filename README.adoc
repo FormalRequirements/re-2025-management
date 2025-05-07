@@ -1,0 +1,113 @@
+= PEGS method implementation 2024
+:numbered:
+:imagesdir: images
+
+
+:BPS: <<BPS,Backup Power System>>
+:LMS: <<LMS,Library Management System>>
+:BAL3000: <<BAL3000, BAL 3000 Turbo Max Pro>>
+
+== Teams
+
+[%header,cols="2,3,1"]
+|===
+| Team 
+| Subject
+| Repo
+
+|Benji + Roro
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952968[GitHub]
+
+|Chris
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952959[GitHub]
+
+|hajar+lou+amélie 
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952964[GitHub]
+
+|ismael 
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952985[GitHub]
+
+|JOALLAND_BETH 
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952963[GitHub]
+
+|Les_Chauves 
+| {BAL3000}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952971[GitHub]
+
+|Louna + Florian 
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952957[GitHub]
+
+|peio et williams
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952970[GitHub]
+|===
+
+== Case studies
+
+[[BPS]]
+=== Backup Power System (4 groups)
+
+Initial description:
+
+* A little context description (sorry for the French ;-):
+
+**Thuy a passé 3 ans aux US (2003-2006) pour travailler sur le problème des défaillances de cause commune dans les systèmes de contrôle-commande de sûreté : 4 redondances, mais problème s'il y a le même bug de conception / logiciel dans les 4.
+** Après une étude analytique et une analyse des retours d'expérience, une de conclusions est que les erreurs dans les exigences jouent un plus grand rôle que les erreurs de logiciel proprement dites.
+** En plus, la défense en profondeur peut aussi être mise à mal si plusieurs lignes de défense d'appuient sur les mêmes exigences, ou si la même cause d'erreur affecte deux spécifications différentes.
+** De retour en France en 2007, Thuy s'est donc attaché à améliorer la qualité des exigences de contrôle commande.
+Il a pris un cas d'étude pas trop compliqué, mais pas trop simple non plus : le séquenceur des générateurs diesels (diesel generators load sequencer, ou DGLS).
+** Grosso modo, il faut détecter les conditions où le DGLS doit agir, manipuler un certains nombre de disjonteurs, démarrer le générateur, attendre qu'il soit prêt, puis par intervalles de 5 secondes, relester les équipements alimentés par le générateur.
+** Les exigences du DGLS sont exprimées dans un diagramme fonctionnel (en équivalent de SCADE) déterministe, mais c'est comme de la programmation.
+** Comment s'assurer que le diagramme fonctionnel est correct ?
+Pour cela, Thuy s'est penché sur le BPS, le système physique dont le DGLS est le contrôle commande.
+** Au plus haut niveau, les exigences du BPS sont très simples.
+** Puis les choses se compliquent petit à petit quand on introduit les redondances et la possibilité de maintenance en fonctionnement et la nécessité de faire des tests périodiques.
+** Elles se compliquent encore quand on établit l'architecture du division (redodance) du BPS : capteurs de tension et de fréquence électriques, disjoncteurs, générateur diesel, système de contrôle-commande (le DGLS).
+** Bien sûr, il faut aussi modéliser l'environnement du BPS : le MPS (alimentation électrique principale), l'opérateur humain, et les "clients" que le BPS doit réalimenter.
+** En faisant tout cela, on replace le DGLS dans son contexte opérationnel, et par simulation, on peut vérifier que les exigences sont OK pour toutes les situations envisagées.
+
+- Thuy Nguyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
+
+
+[[LMS]]
+=== Library Management System (3 groups)
+
+Initial descriptions :
+
+- https://github.com/ddd-by-examples/library?ref=hackernoon.com#domain-description 
+- https://www.naukri.com/code360/library/design-a-library-management-system-low-level-design 
+
+[[BAL3000]]
+=== BAL 3000 Turbo Max Pro
+
+.Theater performance ICE 2024
+image::bal3000.png[width=80%]
+
+== Expected outcomes
+
+[%interactive]
+* [ ] (MUST) A GitHub implementation of the PEGS approach applied to the chosen Case study
+* [ ] (MUST) Description of the team (members, roles)
+* [ ] (SHOULD) The requirements document following the standard plan
+* [ ] (COULD) If possible, the previous requirements document is generated from the repo content (CI/CD ?)
+
+(This list uses the MoSCoW classification criteria.)
+
+== Evaluation criteria 
+
+[%header,cols="2,1,6"]
+|===
+Criteria    | Weight    | Expectations
+
+| 📚 PEGS fidelity | 50% | Respects PEGS plans, rules and principles 
+| ✅ Correctness | 20% | The requirements are sound and match the case study 
+| 🔎 Readibility | 10% | PEGS book and Github repo are easy to read and navigate 
+| ⚙️ Genericity | 10% | How generic is the GitHub (could be added in the free materials on https://requirements.university) 
+| 🤖 PEGS implementation | 10% | Key artefacts (requirements' kinds, validation rules, standard plans) are implemented so that they are possibily used in some CI/CD process in the future 
+|===
