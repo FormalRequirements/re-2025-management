@@ -31,6 +31,9 @@
 | {LMS}
 | https://github.com/FormalRequirements/re-2025-the-honorable-iks[GitHub]
 
+|  AL MUGHRABI Khaled, CAMUS Jonathan et DEFFAUGT Valentin
+| {BPS}
+| https://github.com/FormalRequirements/re-2025-khaled-jonathan-valentin[GitHub]
 |===
 
 == Case studies
