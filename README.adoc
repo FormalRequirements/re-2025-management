@@ -38,12 +38,21 @@
 | ??
 | {mib}
 | ??
+
+| Loic et Kado
+| {BPS}
+| https://github.com/FormalRequirements/re-2025-loic-kado[GitHub]
+
+| L, A, et O ??
+| {LMS}
+| https://github.com/FormalRequirements/re-2025-loa[GitHub]
+
 |===
 
 == Case studies
 
 [[BPS]]
-=== Backup Power System (1 groups)
+=== Backup Power System (3 groups)
 
 Initial description:
 
@@ -68,7 +77,7 @@ Pour cela, Thuy s'est penché sur le BPS, le système physique dont le DGLS est 
 
 
 [[LMS]]
-=== Library Management System (1 group)
+=== Library Management System (3 groups)
 
 Initial descriptions :
 
