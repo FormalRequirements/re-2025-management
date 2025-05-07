@@ -1,4 +1,4 @@
-= PEGS method implementation 2024
+= PEGS method implementation 2025
 :numbered:
 :imagesdir: images
 
@@ -23,35 +23,12 @@
 | {LMS}
 | https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952959[GitHub]
 
-|hajar+lou+amélie 
-| {LMS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952964[GitHub]
-
-|ismael 
-| {BPS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952985[GitHub]
-
-|JOALLAND_BETH 
-| {BPS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952963[GitHub]
-
-|Les_Chauves 
-| {BAL3000}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952971[GitHub]
-
-|Louna + Florian 
-| {LMS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952957[GitHub]
-
-|peio et williams
-| {BPS}
-| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952970[GitHub]
 |===
 
 == Case studies
 
 [[BPS]]
-=== Backup Power System (4 groups)
+=== Backup Power System (?? groups)
 
 Initial description:
 
@@ -76,7 +53,7 @@ Pour cela, Thuy s'est penché sur le BPS, le système physique dont le DGLS est 
 
 
 [[LMS]]
-=== Library Management System (3 groups)
+=== Library Management System (?? groups)
 
 Initial descriptions :
 
