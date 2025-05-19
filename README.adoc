@@ -24,8 +24,8 @@
 | https://github.com/FormalRequirements/re-2025-igor-et-godwin.git[GitHub]
 
 | Maya Smaili, Noémie Tandol et Kévin Véronési
-| ??
-| https://github.com/FormalRequirements/re-2025-noemie-maya-kevin[GitHub]
+| Application de traitement des trajets RSE
+| https://github.com/Drosscend/re-2025-noemie-maya-kevin[GitHub]
 
 | Honoris et Ikram
 | {LMS}
@@ -35,17 +35,17 @@
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-khaled-jonathan-valentin[GitHub]
 
-| ??
+| PEREZ OJEDA Jose, LANGELLIER Louis, SORIANO Raphael
 | {mib}
-| ??
+| https://github.com/FormalRequirements/re-2025-jlr 
 
 | Loic et Kado
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-loic-kado[GitHub]
 
-| L, A, et O ??
+| Léo, Achille, et Othmane
 | {LMS}
-| https://github.com/FormalRequirements/re-2025-loa[GitHub]
+| https://github.com/FormalRequirements/re-2025-lao[GitHub]
 
 | Marion DELATTRE et Dan-Gabriel VOVC
 | {LMS}
