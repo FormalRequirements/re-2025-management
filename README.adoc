@@ -3,9 +3,10 @@
 :imagesdir: images
 
 
-:BPS: <<BPS,Backup Power System>>
-:LMS: <<LMS,Library Management System>>
+:BPS: <<BPS, Backup Power System>>
+:LMS: <<LMS, Library Management System>>
 :mib: <<mib, Intelligent Housing>>
+:RSE: <<rse, Application de traitement des trajets RSE>>
 
 == Teams
 
@@ -24,7 +25,7 @@
 | https://github.com/FormalRequirements/re-2025-igor-et-godwin.git[GitHub]
 
 | Maya Smaili, Noémie Tandol et Kévin Véronési
-| Application de traitement des trajets RSE
+| {RSE}
 | https://github.com/Drosscend/re-2025-noemie-maya-kevin[GitHub hors Classrooom]
 
 | Honoris et Ikram
@@ -91,6 +92,11 @@ Initial descriptions :
 === Maison Intelligente
 
 Lien sur un descriptif de la MIB de Blagnac : chapitre  3 de https://jmbruel.github.io/sysmlpapyrusbook/PapyrusSysMLinAction.pdf[ce document].
+
+[[rse]]
+=== Application de traitement des trajets RSE
+
+...
 
 == Expected outcomes
 
