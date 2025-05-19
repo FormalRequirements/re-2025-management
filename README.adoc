@@ -25,7 +25,7 @@
 
 | Maya Smaili, Noémie Tandol et Kévin Véronési
 | Application de traitement des trajets RSE
-| https://github.com/Drosscend/re-2025-noemie-maya-kevin[GitHub]
+| https://github.com/Drosscend/re-2025-noemie-maya-kevin[GitHub hors Classrooom]
 
 | Honoris et Ikram
 | {LMS}
@@ -37,7 +37,7 @@
 
 | PEREZ OJEDA Jose, LANGELLIER Louis, SORIANO Raphael
 | {mib}
-| https://github.com/FormalRequirements/re-2025-jlr 
+| https://github.com/FormalRequirements/re-2025-jlr[GitHub] 
 
 | Loic et Kado
 | {BPS}
