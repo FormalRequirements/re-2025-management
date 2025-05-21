@@ -10,47 +10,67 @@
 
 == Teams
 
-[%header,cols="2,3,1"]
+[%header,cols="2,3,1,1"]
 |===
 | Team 
 | Subject
 | Repo
+| #1.0
 
 | Johan Senac et Amadou Diallo 
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-johan-amadou[GitHub]
+| ☆☆☆☆☆
+Pas de Release #1.0
 
 | MURENGENZI Manzi et MUGISHA Igor 
 | {LMS}
 | https://github.com/FormalRequirements/re-2025-igor-et-godwin.git[GitHub]
+| ★★☆☆☆
+Bien mais manque le `README`
 
 | Maya Smaili, Noémie Tandol et Kévin Véronési
 | {RSE}
 | https://github.com/Drosscend/re-2025-noemie-maya-kevin[GitHub hors Classrooom]
+| ★★★★☆
+Top mais manque le lien vers le PDF
 
 | Honoris et Ikram
 | {LMS}
 | https://github.com/FormalRequirements/re-2025-the-honorable-iks[GitHub]
+| ★★★☆☆
+Minimum syndical
 
 |  AL MUGHRABI Khaled, CAMUS Jonathan et DEFFAUGT Valentin
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-khaled-jonathan-valentin[GitHub]
+| ★★★★☆
+Top, manque plus que la CI
 
 | PEREZ OJEDA Jose, LANGELLIER Louis, SORIANO Raphael
 | {mib}
 | https://github.com/FormalRequirements/re-2025-jlr[GitHub] 
+| ★★★☆☆
+OK, mais manque les `.adoc` de base et la génération initiale de la doc.
+Manque aussi un `README` dans la branche principale.
 
 | Loic et Kado
 | {BPS}
 | https://github.com/FormalRequirements/re-2025-loic-kado[GitHub]
+| ★★★☆☆
+Minimum syndical  et attention à pointer dans le `README` sur vos releases
 
 | Léo, Achille, et Othmane
 | {LMS}
 | https://github.com/FormalRequirements/re-2025-lao[GitHub]
+| ★★★☆☆
+Top le `README` mais manque la V1 du PDF lui-même (et la CI). 
 
 | Marion DELATTRE et Dan-Gabriel VOVC
 | {LMS}
 | https://github.com/FormalRequirements/re-2025-dan-marion[GitHub]
+| ★★★★☆
+Très complet, me tarde de voir la génération de la doc
 |===
 
 == Case studies
